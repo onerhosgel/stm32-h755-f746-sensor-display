@@ -1,0 +1,58 @@
+# STM32CubeMX
+**/.mxproject
+**/backup_*.ioc
+
+# IDE settings
+**/.settings/
+**/.vscode/
+
+# Build outputs
+**/Debug/
+**/Release/
+**/build/
+
+# Compiled files
+*.o
+*.d
+*.elf
+*.axf
+*.map
+*.list
+*.lst
+*.out
+*.hex
+*.bin
+*.su
+*.cyclo
+
+# TouchGFX generated/build files
+**/TouchGFX/*_backup.touchgfx
+**/TouchGFX/build/
+**/TouchGFX/config/
+**/TouchGFX/generated/
+**/TouchGFX/simulator/
+**/TouchGFX/target.config
+
+# TouchGFX middleware copies
+**/Middlewares/ST/touchgfx/
+**/Middlewares/ST/touchgfx_components/
+**/Middlewares/ST/touchgfx_backup*/
+
+# IAR generated files
+**/EWARM/settings/
+**/EWARM/STM32*/
+**/EWARM/*.dep
+**/EWARM/*.ewt
+**/EWARM/*.ipcf
+**/EWARM/*.custom_argvars
+
+# Keil generated files
+**/MDK-ARM/RTE/
+**/MDK-ARM/STM32*/
+**/MDK-ARM/DebugConfig/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
